@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5999640A2A826DDE00C8C6D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599964092A826DDE00C8C6D4 /* AppDelegate.swift */; };
+		5999640C2A826DDE00C8C6D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5999640B2A826DDE00C8C6D4 /* SceneDelegate.swift */; };
+		5999640E2A826DDE00C8C6D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5999640D2A826DDE00C8C6D4 /* ViewController.swift */; };
+		599964112A826DDE00C8C6D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5999640F2A826DDE00C8C6D4 /* Main.storyboard */; };
+		599964132A826DDF00C8C6D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 599964122A826DDF00C8C6D4 /* Assets.xcassets */; };
+		599964162A826DDF00C8C6D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599964142A826DDF00C8C6D4 /* LaunchScreen.storyboard */; };
+		599964212A826DDF00C8C6D4 /* Coklu_Ekran_Destegi_CalismasiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599964202A826DDF00C8C6D4 /* Coklu_Ekran_Destegi_CalismasiTests.swift */; };
+		5999642B2A826DDF00C8C6D4 /* Coklu_Ekran_Destegi_CalismasiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5999642A2A826DDF00C8C6D4 /* Coklu_Ekran_Destegi_CalismasiUITests.swift */; };
+		5999642D2A826DDF00C8C6D4 /* Coklu_Ekran_Destegi_CalismasiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5999642C2A826DDF00C8C6D4 /* Coklu_Ekran_Destegi_CalismasiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5999641D2A826DDF00C8C6D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 599963FE2A826DDE00C8C6D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 599964052A826DDE00C8C6D4;
+			remoteInfo = "Coklu Ekran Destegi Calismasi";
+		};
+		599964272A826DDF00C8C6D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 599963FE2A826DDE00C8C6D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 599964052A826DDE00C8C6D4;
+			remoteInfo = "Coklu Ekran Destegi Calismasi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		599964062A826DDE00C8C6D4 /* Coklu Ekran Destegi Calismasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coklu Ekran Destegi Calismasi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		599964092A826DDE00C8C6D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5999640B2A826DDE00C8C6D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5999640D2A826DDE00C8C6D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		599964102A826DDE00C8C6D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		599964122A826DDF00C8C6D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		599964152A826DDF00C8C6D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		599964172A826DDF00C8C6D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5999641C2A826DDF00C8C6D4 /* Coklu Ekran Destegi CalismasiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coklu Ekran Destegi CalismasiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		599964202A826DDF00C8C6D4 /* Coklu_Ekran_Destegi_CalismasiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coklu_Ekran_Destegi_CalismasiTests.swift; sourceTree = "<group>"; };
+		599964262A826DDF00C8C6D4 /* Coklu Ekran Destegi CalismasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coklu Ekran Destegi CalismasiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5999642A2A826DDF00C8C6D4 /* Coklu_Ekran_Destegi_CalismasiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coklu_Ekran_Destegi_CalismasiUITests.swift; sourceTree = "<group>"; };
+		5999642C2A826DDF00C8C6D4 /* Coklu_Ekran_Destegi_CalismasiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coklu_Ekran_Destegi_CalismasiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		599964032A826DDE00C8C6D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599964192A826DDF00C8C6D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599964232A826DDF00C8C6D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		599963FD2A826DDE00C8C6D4 = {
+			isa = PBXGroup;
+			children = (
+				599964082A826DDE00C8C6D4 /* Coklu Ekran Destegi Calismasi */,
+				5999641F2A826DDF00C8C6D4 /* Coklu Ekran Destegi CalismasiTests */,
+				599964292A826DDF00C8C6D4 /* Coklu Ekran Destegi CalismasiUITests */,
+				599964072A826DDE00C8C6D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		599964072A826DDE00C8C6D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				599964062A826DDE00C8C6D4 /* Coklu Ekran Destegi Calismasi.app */,
+				5999641C2A826DDF00C8C6D4 /* Coklu Ekran Destegi CalismasiTests.xctest */,
+				599964262A826DDF00C8C6D4 /* Coklu Ekran Destegi CalismasiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		599964082A826DDE00C8C6D4 /* Coklu Ekran Destegi Calismasi */ = {
+			isa = PBXGroup;
+			children = (
+				599964092A826DDE00C8C6D4 /* AppDelegate.swift */,
+				5999640B2A826DDE00C8C6D4 /* SceneDelegate.swift */,
+				5999640D2A826DDE00C8C6D4 /* ViewController.swift */,
+				5999640F2A826DDE00C8C6D4 /* Main.storyboard */,
+				599964122A826DDF00C8C6D4 /* Assets.xcassets */,
+				599964142A826DDF00C8C6D4 /* LaunchScreen.storyboard */,
+				599964172A826DDF00C8C6D4 /* Info.plist */,
+			);
+			path = "Coklu Ekran Destegi Calismasi";
+			sourceTree = "<group>";
+		};
+		5999641F2A826DDF00C8C6D4 /* Coklu Ekran Destegi CalismasiTests */ = {
+			isa = PBXGroup;
+			children = (
+				599964202A826DDF00C8C6D4 /* Coklu_Ekran_Destegi_CalismasiTests.swift */,
+			);
+			path = "Coklu Ekran Destegi CalismasiTests";
+			sourceTree = "<group>";
+		};
+		599964292A826DDF00C8C6D4 /* Coklu Ekran Destegi CalismasiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5999642A2A826DDF00C8C6D4 /* Coklu_Ekran_Destegi_CalismasiUITests.swift */,
+				5999642C2A826DDF00C8C6D4 /* Coklu_Ekran_Destegi_CalismasiUITestsLaunchTests.swift */,
+			);
+			path = "Coklu Ekran Destegi CalismasiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		599964052A826DDE00C8C6D4 /* Coklu Ekran Destegi Calismasi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 599964302A826DDF00C8C6D4 /* Build configuration list for PBXNativeTarget "Coklu Ekran Destegi Calismasi" */;
+			buildPhases = (
+				599964022A826DDE00C8C6D4 /* Sources */,
+				599964032A826DDE00C8C6D4 /* Frameworks */,
+				599964042A826DDE00C8C6D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coklu Ekran Destegi Calismasi";
+			productName = "Coklu Ekran Destegi Calismasi";
+			productReference = 599964062A826DDE00C8C6D4 /* Coklu Ekran Destegi Calismasi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5999641B2A826DDF00C8C6D4 /* Coklu Ekran Destegi CalismasiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 599964332A826DDF00C8C6D4 /* Build configuration list for PBXNativeTarget "Coklu Ekran Destegi CalismasiTests" */;
+			buildPhases = (
+				599964182A826DDF00C8C6D4 /* Sources */,
+				599964192A826DDF00C8C6D4 /* Frameworks */,
+				5999641A2A826DDF00C8C6D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5999641E2A826DDF00C8C6D4 /* PBXTargetDependency */,
+			);
+			name = "Coklu Ekran Destegi CalismasiTests";
+			productName = "Coklu Ekran Destegi CalismasiTests";
+			productReference = 5999641C2A826DDF00C8C6D4 /* Coklu Ekran Destegi CalismasiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		599964252A826DDF00C8C6D4 /* Coklu Ekran Destegi CalismasiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 599964362A826DDF00C8C6D4 /* Build configuration list for PBXNativeTarget "Coklu Ekran Destegi CalismasiUITests" */;
+			buildPhases = (
+				599964222A826DDF00C8C6D4 /* Sources */,
+				599964232A826DDF00C8C6D4 /* Frameworks */,
+				599964242A826DDF00C8C6D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				599964282A826DDF00C8C6D4 /* PBXTargetDependency */,
+			);
+			name = "Coklu Ekran Destegi CalismasiUITests";
+			productName = "Coklu Ekran Destegi CalismasiUITests";
+			productReference = 599964262A826DDF00C8C6D4 /* Coklu Ekran Destegi CalismasiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		599963FE2A826DDE00C8C6D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					599964052A826DDE00C8C6D4 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					5999641B2A826DDF00C8C6D4 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 599964052A826DDE00C8C6D4;
+					};
+					599964252A826DDF00C8C6D4 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 599964052A826DDE00C8C6D4;
+					};
+				};
+			};
+			buildConfigurationList = 599964012A826DDE00C8C6D4 /* Build configuration list for PBXProject "Coklu Ekran Destegi Calismasi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 599963FD2A826DDE00C8C6D4;
+			productRefGroup = 599964072A826DDE00C8C6D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				599964052A826DDE00C8C6D4 /* Coklu Ekran Destegi Calismasi */,
+				5999641B2A826DDF00C8C6D4 /* Coklu Ekran Destegi CalismasiTests */,
+				599964252A826DDF00C8C6D4 /* Coklu Ekran Destegi CalismasiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		599964042A826DDE00C8C6D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599964162A826DDF00C8C6D4 /* LaunchScreen.storyboard in Resources */,
+				599964132A826DDF00C8C6D4 /* Assets.xcassets in Resources */,
+				599964112A826DDE00C8C6D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5999641A2A826DDF00C8C6D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599964242A826DDF00C8C6D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		599964022A826DDE00C8C6D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5999640E2A826DDE00C8C6D4 /* ViewController.swift in Sources */,
+				5999640A2A826DDE00C8C6D4 /* AppDelegate.swift in Sources */,
+				5999640C2A826DDE00C8C6D4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599964182A826DDF00C8C6D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599964212A826DDF00C8C6D4 /* Coklu_Ekran_Destegi_CalismasiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599964222A826DDF00C8C6D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5999642D2A826DDF00C8C6D4 /* Coklu_Ekran_Destegi_CalismasiUITestsLaunchTests.swift in Sources */,
+				5999642B2A826DDF00C8C6D4 /* Coklu_Ekran_Destegi_CalismasiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5999641E2A826DDF00C8C6D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 599964052A826DDE00C8C6D4 /* Coklu Ekran Destegi Calismasi */;
+			targetProxy = 5999641D2A826DDF00C8C6D4 /* PBXContainerItemProxy */;
+		};
+		599964282A826DDF00C8C6D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 599964052A826DDE00C8C6D4 /* Coklu Ekran Destegi Calismasi */;
+			targetProxy = 599964272A826DDF00C8C6D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5999640F2A826DDE00C8C6D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				599964102A826DDE00C8C6D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		599964142A826DDF00C8C6D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				599964152A826DDF00C8C6D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5999642E2A826DDF00C8C6D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5999642F2A826DDF00C8C6D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		599964312A826DDF00C8C6D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Coklu Ekran Destegi Calismasi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BRK.Coklu-Ekran-Destegi-Calismasi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		599964322A826DDF00C8C6D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Coklu Ekran Destegi Calismasi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BRK.Coklu-Ekran-Destegi-Calismasi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		599964342A826DDF00C8C6D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BRK.Coklu-Ekran-Destegi-CalismasiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coklu Ekran Destegi Calismasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coklu Ekran Destegi Calismasi";
+			};
+			name = Debug;
+		};
+		599964352A826DDF00C8C6D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BRK.Coklu-Ekran-Destegi-CalismasiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coklu Ekran Destegi Calismasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coklu Ekran Destegi Calismasi";
+			};
+			name = Release;
+		};
+		599964372A826DDF00C8C6D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BRK.Coklu-Ekran-Destegi-CalismasiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coklu Ekran Destegi Calismasi";
+			};
+			name = Debug;
+		};
+		599964382A826DDF00C8C6D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BRK.Coklu-Ekran-Destegi-CalismasiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coklu Ekran Destegi Calismasi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		599964012A826DDE00C8C6D4 /* Build configuration list for PBXProject "Coklu Ekran Destegi Calismasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5999642E2A826DDF00C8C6D4 /* Debug */,
+				5999642F2A826DDF00C8C6D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		599964302A826DDF00C8C6D4 /* Build configuration list for PBXNativeTarget "Coklu Ekran Destegi Calismasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599964312A826DDF00C8C6D4 /* Debug */,
+				599964322A826DDF00C8C6D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		599964332A826DDF00C8C6D4 /* Build configuration list for PBXNativeTarget "Coklu Ekran Destegi CalismasiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599964342A826DDF00C8C6D4 /* Debug */,
+				599964352A826DDF00C8C6D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		599964362A826DDF00C8C6D4 /* Build configuration list for PBXNativeTarget "Coklu Ekran Destegi CalismasiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599964372A826DDF00C8C6D4 /* Debug */,
+				599964382A826DDF00C8C6D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 599963FE2A826DDE00C8C6D4 /* Project object */;
+}

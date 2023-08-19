@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rE6-Ap-0Gh">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Work-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Tab_Bar_Calismasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Work" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GOu-pW-NCR">
+                                <rect key="frame" x="86.666666666666671" y="229" width="219.66666666666663" height="120"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="GOu-pW-NCR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cnv-CM-37d"/>
+                            <constraint firstItem="GOu-pW-NCR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="170" id="hNd-vz-Ksn"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="1" title="Work" image="workIconSeciliDegil" selectedImage="workIconSecili" id="uR6-Jq-J8y"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1688" y="338"/>
+        </scene>
+        <!--Profil-->
+        <scene sceneID="Nmj-FJ-Rby">
+            <objects>
+                <viewController id="5EI-2m-iGZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="G2g-TI-FgF">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3vN-Z7-K9N">
+                                <rect key="frame" x="65.666666666666686" y="229" width="262" height="120"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="85j-vO-l2o">
+                                <rect key="frame" x="138" y="564" width="117" height="51"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="İş Arttır">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="isArttir:" destination="amN-CE-XVr" eventType="touchUpInside" id="1M9-LC-Uky"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pOe-Sp-sy5">
+                                <rect key="frame" x="115.66666666666669" y="454" width="162" height="50"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Profil Arttır">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="profilArttir:" destination="amN-CE-XVr" eventType="touchUpInside" id="csV-T7-gAy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9tO-hQ-CCz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="pOe-Sp-sy5" firstAttribute="centerX" secondItem="G2g-TI-FgF" secondAttribute="centerX" id="1xO-7B-hNy"/>
+                            <constraint firstItem="3vN-Z7-K9N" firstAttribute="top" secondItem="9tO-hQ-CCz" secondAttribute="top" constant="170" id="98u-Uj-4Jd"/>
+                            <constraint firstItem="3vN-Z7-K9N" firstAttribute="centerX" secondItem="G2g-TI-FgF" secondAttribute="centerX" id="OPE-Oh-dMh"/>
+                            <constraint firstItem="85j-vO-l2o" firstAttribute="centerX" secondItem="G2g-TI-FgF" secondAttribute="centerX" id="QLu-3T-YKH"/>
+                            <constraint firstItem="pOe-Sp-sy5" firstAttribute="top" secondItem="3vN-Z7-K9N" secondAttribute="bottom" constant="105" id="oQ0-qT-dgP"/>
+                            <constraint firstItem="85j-vO-l2o" firstAttribute="top" secondItem="pOe-Sp-sy5" secondAttribute="bottom" constant="60" id="zHb-ma-zTA"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Profil" image="faceIconSeciliDegil" selectedImage="faceIconSecili" id="U4r-ru-5bI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ttO-Tc-DBa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="amN-CE-XVr" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1687.7862595419847" y="-346.47887323943661"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="2O3-IT-KfH">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="rE6-Ap-0Gh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lj5-ZG-PBi">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="ul2-oc-vse"/>
+                        <segue destination="5EI-2m-iGZ" kind="relationship" relationship="viewControllers" id="qLz-Su-mao"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pDF-eB-YCG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="771.75572519083971" y="37.323943661971832"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="faceIconSecili" width="18" height="18"/>
+        <image name="faceIconSeciliDegil" width="18" height="18"/>
+        <image name="workIconSecili" width="18" height="18"/>
+        <image name="workIconSeciliDegil" width="18" height="18"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

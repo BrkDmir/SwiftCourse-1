@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		599965382A8788B400C8C6D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599965372A8788B400C8C6D4 /* AppDelegate.swift */; };
+		5999653A2A8788B400C8C6D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599965392A8788B400C8C6D4 /* SceneDelegate.swift */; };
+		5999653C2A8788B400C8C6D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5999653B2A8788B400C8C6D4 /* ViewController.swift */; };
+		5999653F2A8788B400C8C6D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5999653D2A8788B400C8C6D4 /* Main.storyboard */; };
+		599965412A8788B500C8C6D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 599965402A8788B500C8C6D4 /* Assets.xcassets */; };
+		599965442A8788B500C8C6D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599965422A8788B500C8C6D4 /* LaunchScreen.storyboard */; };
+		5999654F2A8788B500C8C6D4 /* View_Controller_CalismaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5999654E2A8788B500C8C6D4 /* View_Controller_CalismaTests.swift */; };
+		599965592A8788B500C8C6D4 /* View_Controller_CalismaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599965582A8788B500C8C6D4 /* View_Controller_CalismaUITests.swift */; };
+		5999655B2A8788B500C8C6D4 /* View_Controller_CalismaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5999655A2A8788B500C8C6D4 /* View_Controller_CalismaUITestsLaunchTests.swift */; };
+		599965682A87892C00C8C6D4 /* SecondVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599965672A87892C00C8C6D4 /* SecondVCViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5999654B2A8788B500C8C6D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5999652C2A8788B400C8C6D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 599965332A8788B400C8C6D4;
+			remoteInfo = "View Controller Calisma";
+		};
+		599965552A8788B500C8C6D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5999652C2A8788B400C8C6D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 599965332A8788B400C8C6D4;
+			remoteInfo = "View Controller Calisma";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		599965342A8788B400C8C6D4 /* View Controller Calisma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "View Controller Calisma.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		599965372A8788B400C8C6D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		599965392A8788B400C8C6D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5999653B2A8788B400C8C6D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5999653E2A8788B400C8C6D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		599965402A8788B500C8C6D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		599965432A8788B500C8C6D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		599965452A8788B500C8C6D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5999654A2A8788B500C8C6D4 /* View Controller CalismaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "View Controller CalismaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5999654E2A8788B500C8C6D4 /* View_Controller_CalismaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_Controller_CalismaTests.swift; sourceTree = "<group>"; };
+		599965542A8788B500C8C6D4 /* View Controller CalismaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "View Controller CalismaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		599965582A8788B500C8C6D4 /* View_Controller_CalismaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_Controller_CalismaUITests.swift; sourceTree = "<group>"; };
+		5999655A2A8788B500C8C6D4 /* View_Controller_CalismaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_Controller_CalismaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		599965672A87892C00C8C6D4 /* SecondVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVCViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		599965312A8788B400C8C6D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599965472A8788B500C8C6D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599965512A8788B500C8C6D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5999652B2A8788B400C8C6D4 = {
+			isa = PBXGroup;
+			children = (
+				599965362A8788B400C8C6D4 /* View Controller Calisma */,
+				5999654D2A8788B500C8C6D4 /* View Controller CalismaTests */,
+				599965572A8788B500C8C6D4 /* View Controller CalismaUITests */,
+				599965352A8788B400C8C6D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		599965352A8788B400C8C6D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				599965342A8788B400C8C6D4 /* View Controller Calisma.app */,
+				5999654A2A8788B500C8C6D4 /* View Controller CalismaTests.xctest */,
+				599965542A8788B500C8C6D4 /* View Controller CalismaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		599965362A8788B400C8C6D4 /* View Controller Calisma */ = {
+			isa = PBXGroup;
+			children = (
+				599965372A8788B400C8C6D4 /* AppDelegate.swift */,
+				599965392A8788B400C8C6D4 /* SceneDelegate.swift */,
+				5999653B2A8788B400C8C6D4 /* ViewController.swift */,
+				599965672A87892C00C8C6D4 /* SecondVCViewController.swift */,
+				5999653D2A8788B400C8C6D4 /* Main.storyboard */,
+				599965402A8788B500C8C6D4 /* Assets.xcassets */,
+				599965422A8788B500C8C6D4 /* LaunchScreen.storyboard */,
+				599965452A8788B500C8C6D4 /* Info.plist */,
+			);
+			path = "View Controller Calisma";
+			sourceTree = "<group>";
+		};
+		5999654D2A8788B500C8C6D4 /* View Controller CalismaTests */ = {
+			isa = PBXGroup;
+			children = (
+				5999654E2A8788B500C8C6D4 /* View_Controller_CalismaTests.swift */,
+			);
+			path = "View Controller CalismaTests";
+			sourceTree = "<group>";
+		};
+		599965572A8788B500C8C6D4 /* View Controller CalismaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				599965582A8788B500C8C6D4 /* View_Controller_CalismaUITests.swift */,
+				5999655A2A8788B500C8C6D4 /* View_Controller_CalismaUITestsLaunchTests.swift */,
+			);
+			path = "View Controller CalismaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		599965332A8788B400C8C6D4 /* View Controller Calisma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5999655E2A8788B500C8C6D4 /* Build configuration list for PBXNativeTarget "View Controller Calisma" */;
+			buildPhases = (
+				599965302A8788B400C8C6D4 /* Sources */,
+				599965312A8788B400C8C6D4 /* Frameworks */,
+				599965322A8788B400C8C6D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "View Controller Calisma";
+			productName = "View Controller Calisma";
+			productReference = 599965342A8788B400C8C6D4 /* View Controller Calisma.app */;
+			productType = "com.apple.product-type.application";
+		};
+		599965492A8788B500C8C6D4 /* View Controller CalismaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 599965612A8788B500C8C6D4 /* Build configuration list for PBXNativeTarget "View Controller CalismaTests" */;
+			buildPhases = (
+				599965462A8788B500C8C6D4 /* Sources */,
+				599965472A8788B500C8C6D4 /* Frameworks */,
+				599965482A8788B500C8C6D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5999654C2A8788B500C8C6D4 /* PBXTargetDependency */,
+			);
+			name = "View Controller CalismaTests";
+			productName = "View Controller CalismaTests";
+			productReference = 5999654A2A8788B500C8C6D4 /* View Controller CalismaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		599965532A8788B500C8C6D4 /* View Controller CalismaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 599965642A8788B500C8C6D4 /* Build configuration list for PBXNativeTarget "View Controller CalismaUITests" */;
+			buildPhases = (
+				599965502A8788B500C8C6D4 /* Sources */,
+				599965512A8788B500C8C6D4 /* Frameworks */,
+				599965522A8788B500C8C6D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				599965562A8788B500C8C6D4 /* PBXTargetDependency */,
+			);
+			name = "View Controller CalismaUITests";
+			productName = "View Controller CalismaUITests";
+			productReference = 599965542A8788B500C8C6D4 /* View Controller CalismaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5999652C2A8788B400C8C6D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					599965332A8788B400C8C6D4 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					599965492A8788B500C8C6D4 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 599965332A8788B400C8C6D4;
+					};
+					599965532A8788B500C8C6D4 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 599965332A8788B400C8C6D4;
+					};
+				};
+			};
+			buildConfigurationList = 5999652F2A8788B400C8C6D4 /* Build configuration list for PBXProject "View Controller Calisma" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5999652B2A8788B400C8C6D4;
+			productRefGroup = 599965352A8788B400C8C6D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				599965332A8788B400C8C6D4 /* View Controller Calisma */,
+				599965492A8788B500C8C6D4 /* View Controller CalismaTests */,
+				599965532A8788B500C8C6D4 /* View Controller CalismaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		599965322A8788B400C8C6D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599965442A8788B500C8C6D4 /* LaunchScreen.storyboard in Resources */,
+				599965412A8788B500C8C6D4 /* Assets.xcassets in Resources */,
+				5999653F2A8788B400C8C6D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599965482A8788B500C8C6D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599965522A8788B500C8C6D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		599965302A8788B400C8C6D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5999653C2A8788B400C8C6D4 /* ViewController.swift in Sources */,
+				599965382A8788B400C8C6D4 /* AppDelegate.swift in Sources */,
+				5999653A2A8788B400C8C6D4 /* SceneDelegate.swift in Sources */,
+				599965682A87892C00C8C6D4 /* SecondVCViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599965462A8788B500C8C6D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5999654F2A8788B500C8C6D4 /* View_Controller_CalismaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599965502A8788B500C8C6D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5999655B2A8788B500C8C6D4 /* View_Controller_CalismaUITestsLaunchTests.swift in Sources */,
+				599965592A8788B500C8C6D4 /* View_Controller_CalismaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5999654C2A8788B500C8C6D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 599965332A8788B400C8C6D4 /* View Controller Calisma */;
+			targetProxy = 5999654B2A8788B500C8C6D4 /* PBXContainerItemProxy */;
+		};
+		599965562A8788B500C8C6D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 599965332A8788B400C8C6D4 /* View Controller Calisma */;
+			targetProxy = 599965552A8788B500C8C6D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5999653D2A8788B400C8C6D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5999653E2A8788B400C8C6D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		599965422A8788B500C8C6D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				599965432A8788B500C8C6D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5999655C2A8788B500C8C6D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5999655D2A8788B500C8C6D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5999655F2A8788B500C8C6D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "View Controller Calisma/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BRK.View-Controller-Calisma";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		599965602A8788B500C8C6D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "View Controller Calisma/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BRK.View-Controller-Calisma";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		599965622A8788B500C8C6D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BRK.View-Controller-CalismaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/View Controller Calisma.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/View Controller Calisma";
+			};
+			name = Debug;
+		};
+		599965632A8788B500C8C6D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BRK.View-Controller-CalismaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/View Controller Calisma.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/View Controller Calisma";
+			};
+			name = Release;
+		};
+		599965652A8788B500C8C6D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BRK.View-Controller-CalismaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "View Controller Calisma";
+			};
+			name = Debug;
+		};
+		599965662A8788B500C8C6D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BRK.View-Controller-CalismaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "View Controller Calisma";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5999652F2A8788B400C8C6D4 /* Build configuration list for PBXProject "View Controller Calisma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5999655C2A8788B500C8C6D4 /* Debug */,
+				5999655D2A8788B500C8C6D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5999655E2A8788B500C8C6D4 /* Build configuration list for PBXNativeTarget "View Controller Calisma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5999655F2A8788B500C8C6D4 /* Debug */,
+				599965602A8788B500C8C6D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		599965612A8788B500C8C6D4 /* Build configuration list for PBXNativeTarget "View Controller CalismaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599965622A8788B500C8C6D4 /* Debug */,
+				599965632A8788B500C8C6D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		599965642A8788B500C8C6D4 /* Build configuration list for PBXNativeTarget "View Controller CalismaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599965652A8788B500C8C6D4 /* Debug */,
+				599965662A8788B500C8C6D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5999652C2A8788B400C8C6D4 /* Project object */;
+}

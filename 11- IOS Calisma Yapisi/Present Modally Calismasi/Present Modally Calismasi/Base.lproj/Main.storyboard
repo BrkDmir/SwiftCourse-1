@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="sayfa1" id="BYZ-38-t0r" customClass="ViewController" customModule="Present_Modally_Calismasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gA7-ok-0ic">
+                                <rect key="frame" x="201.66666666666666" y="228.99999999999997" width="27" height="71.666666666666657"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6o7-ez-s64">
+                                <rect key="frame" x="175.33333333333334" y="663" width="79.666666666666657" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Go to 2"/>
+                                <connections>
+                                    <action selector="goto2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nlV-cz-UDx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6o7-ez-s64" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fed-vB-DX9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6o7-ez-s64" secondAttribute="bottom" constant="200" id="VrQ-Rt-d68"/>
+                            <constraint firstItem="gA7-ok-0ic" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bgD-Pb-xLd"/>
+                            <constraint firstItem="gA7-ok-0ic" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="170" id="ehK-jm-NMa"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="J7v-C1-0UF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1618.6046511627908" y="-134.54935622317598"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="P8P-1I-Jg4">
+            <objects>
+                <viewController storyboardIdentifier="sayfa2" id="6Hl-GF-exv" customClass="ViewController2" customModule="Present_Modally_Calismasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yYG-d8-5DT">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ofx-FF-alS">
+                                <rect key="frame" x="175" y="664" width="80.333333333333314" height="34"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Go to 3"/>
+                                <connections>
+                                    <action selector="goto3:" destination="6Hl-GF-exv" eventType="touchUpInside" id="9RS-r6-2VL"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dkW-6I-lcK">
+                                <rect key="frame" x="197.66666666666666" y="229" width="35" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2m2-Tk-vYk">
+                                <rect key="frame" x="149.66666666666666" y="723" width="130.99999999999997" height="34"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Dismiss (Geri)"/>
+                                <connections>
+                                    <action selector="tiklanDismiss:" destination="6Hl-GF-exv" eventType="touchUpInside" id="IR8-dg-K9B"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3Ud-YT-er5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2m2-Tk-vYk" firstAttribute="top" secondItem="Ofx-FF-alS" secondAttribute="bottom" constant="25" id="2nQ-GD-QLR"/>
+                            <constraint firstItem="Ofx-FF-alS" firstAttribute="centerX" secondItem="yYG-d8-5DT" secondAttribute="centerX" id="Ahh-hg-E4t"/>
+                            <constraint firstItem="2m2-Tk-vYk" firstAttribute="top" secondItem="Ofx-FF-alS" secondAttribute="bottom" constant="25" id="PXb-Y8-4UU"/>
+                            <constraint firstItem="3Ud-YT-er5" firstAttribute="bottom" secondItem="Ofx-FF-alS" secondAttribute="bottom" constant="200" id="fCe-dd-TyC"/>
+                            <constraint firstItem="dkW-6I-lcK" firstAttribute="top" secondItem="3Ud-YT-er5" secondAttribute="top" constant="170" id="hed-HR-gqA"/>
+                            <constraint firstItem="2m2-Tk-vYk" firstAttribute="centerX" secondItem="yYG-d8-5DT" secondAttribute="centerX" id="sV0-96-qet"/>
+                            <constraint firstItem="dkW-6I-lcK" firstAttribute="centerX" secondItem="yYG-d8-5DT" secondAttribute="centerX" id="xkj-Nu-rXQ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mdK-a1-lkV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2453.0232558139533" y="-135.83690987124464"/>
+        </scene>
+        <!--View Controller3-->
+        <scene sceneID="5Tw-e9-eE3">
+            <objects>
+                <viewController storyboardIdentifier="sayfa3" id="AXc-hN-r0u" customClass="ViewController3" customModule="Present_Modally_Calismasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Uy-ma-d0U">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPj-em-awv">
+                                <rect key="frame" x="175.33333333333334" y="663" width="79.666666666666657" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Go to 2"/>
+                                <connections>
+                                    <action selector="goto2:" destination="AXc-hN-r0u" eventType="touchUpInside" id="e82-cl-ygj"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSZ-BY-EEF">
+                                <rect key="frame" x="197" y="229" width="36" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z1i-GB-c59">
+                                <rect key="frame" x="176.33333333333334" y="613" width="77.333333333333343" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Go to 1"/>
+                                <connections>
+                                    <action selector="goto1:" destination="AXc-hN-r0u" eventType="touchUpInside" id="rgN-Bs-Ech"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="O6V-W8-pub"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Z1i-GB-c59" firstAttribute="centerX" secondItem="3Uy-ma-d0U" secondAttribute="centerX" id="7mh-Ip-XX7"/>
+                            <constraint firstItem="nPj-em-awv" firstAttribute="centerX" secondItem="3Uy-ma-d0U" secondAttribute="centerX" id="HMS-7v-ncn"/>
+                            <constraint firstItem="nPj-em-awv" firstAttribute="top" secondItem="Z1i-GB-c59" secondAttribute="bottom" constant="15" id="JpR-oy-c4G"/>
+                            <constraint firstItem="O6V-W8-pub" firstAttribute="bottom" secondItem="nPj-em-awv" secondAttribute="bottom" constant="200" id="WvT-PG-NUV"/>
+                            <constraint firstItem="WSZ-BY-EEF" firstAttribute="centerX" secondItem="3Uy-ma-d0U" secondAttribute="centerX" id="eDe-QJ-Zbb"/>
+                            <constraint firstItem="WSZ-BY-EEF" firstAttribute="top" secondItem="O6V-W8-pub" secondAttribute="top" constant="170" id="hMk-MT-fLV"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zxu-eO-mDY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3265.1162790697672" y="-135.1931330472103"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

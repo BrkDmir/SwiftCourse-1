@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Slider___Stepper" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Slider:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X19-SQ-b0H">
+                                <rect key="frame" x="172.66666666666666" y="93" width="48" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="35" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="lh0-EB-EQx">
+                                <rect key="frame" x="58" y="166" width="277" height="31"/>
+                                <color key="thumbTintColor" systemColor="systemRedColor"/>
+                                <connections>
+                                    <action selector="sliderDegisim:" destination="BYZ-38-t0r" eventType="valueChanged" id="vdc-DF-hwF"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ljn-q9-iRg">
+                                <rect key="frame" x="175.66666666666666" y="284" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="xtj-Sz-KPO">
+                                <rect key="frame" x="149.66666666666666" y="388" width="94" height="32"/>
+                                <connections>
+                                    <action selector="tikla:" destination="BYZ-38-t0r" eventType="valueChanged" id="ymJ-qE-WpN"/>
+                                </connections>
+                            </stepper>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lh0-EB-EQx" firstAttribute="top" secondItem="X19-SQ-b0H" secondAttribute="bottom" constant="52" id="5Ch-8l-iHO"/>
+                            <constraint firstItem="ljn-q9-iRg" firstAttribute="top" secondItem="lh0-EB-EQx" secondAttribute="bottom" constant="88" id="9kP-VU-IZQ"/>
+                            <constraint firstItem="lh0-EB-EQx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="L3d-4v-94b"/>
+                            <constraint firstItem="X19-SQ-b0H" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QD8-u0-90w"/>
+                            <constraint firstItem="xtj-Sz-KPO" firstAttribute="top" secondItem="ljn-q9-iRg" secondAttribute="bottom" constant="83" id="fK9-Fm-Q7e"/>
+                            <constraint firstItem="X19-SQ-b0H" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="34" id="gTi-sn-cGR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lh0-EB-EQx" secondAttribute="trailing" constant="60" id="h9t-0X-Q6I"/>
+                            <constraint firstItem="lh0-EB-EQx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="qit-hJ-Sxu"/>
+                            <constraint firstItem="ljn-q9-iRg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uTR-aC-27v"/>
+                            <constraint firstItem="xtj-Sz-KPO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v4m-ul-XDK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="slider" destination="lh0-EB-EQx" id="nPt-OK-pqf"/>
+                        <outlet property="sliderEtiket" destination="X19-SQ-b0H" id="GIL-WO-Bm0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="-34"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

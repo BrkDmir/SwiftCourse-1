@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Activity_Indicators" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="k9b-nf-xKa">
+                                <rect key="frame" x="178" y="199" width="37" height="37"/>
+                                <color key="color" systemColor="systemRedColor"/>
+                            </activityIndicatorView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i3W-hk-JhY">
+                                <rect key="frame" x="161" y="366" width="71" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Başlat"/>
+                                <connections>
+                                    <action selector="basla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y5O-Jr-6LD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STt-zW-1DD">
+                                <rect key="frame" x="158" y="481" width="77" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Durdur"/>
+                                <connections>
+                                    <action selector="dur:" destination="BYZ-38-t0r" eventType="touchUpInside" id="72b-2w-Up9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="STt-zW-1DD" firstAttribute="top" secondItem="i3W-hk-JhY" secondAttribute="bottom" constant="80" id="4nZ-Xu-YXX"/>
+                            <constraint firstItem="i3W-hk-JhY" firstAttribute="top" secondItem="k9b-nf-xKa" secondAttribute="bottom" constant="130" id="JlF-rC-QtJ"/>
+                            <constraint firstItem="k9b-nf-xKa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PPE-2S-ouf"/>
+                            <constraint firstItem="STt-zW-1DD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SYe-LL-Zfz"/>
+                            <constraint firstItem="i3W-hk-JhY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZJG-N9-6dz"/>
+                            <constraint firstItem="k9b-nf-xKa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="140" id="ZXn-QB-ppB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="indicator" destination="k9b-nf-xKa" id="kZf-GC-dhk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="74" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

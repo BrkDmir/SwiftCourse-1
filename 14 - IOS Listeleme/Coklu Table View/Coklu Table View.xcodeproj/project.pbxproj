@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		591A23942A9E1B2A00A6F501 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591A23932A9E1B2A00A6F501 /* AppDelegate.swift */; };
+		591A23962A9E1B2A00A6F501 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591A23952A9E1B2A00A6F501 /* SceneDelegate.swift */; };
+		591A23982A9E1B2A00A6F501 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591A23972A9E1B2A00A6F501 /* ViewController.swift */; };
+		591A239B2A9E1B2A00A6F501 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591A23992A9E1B2A00A6F501 /* Main.storyboard */; };
+		591A239D2A9E1B2A00A6F501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 591A239C2A9E1B2A00A6F501 /* Assets.xcassets */; };
+		591A23A02A9E1B2A00A6F501 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591A239E2A9E1B2A00A6F501 /* LaunchScreen.storyboard */; };
+		591A23AB2A9E1B2A00A6F501 /* Coklu_Table_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591A23AA2A9E1B2A00A6F501 /* Coklu_Table_ViewTests.swift */; };
+		591A23B52A9E1B2B00A6F501 /* Coklu_Table_ViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591A23B42A9E1B2B00A6F501 /* Coklu_Table_ViewUITests.swift */; };
+		591A23B72A9E1B2B00A6F501 /* Coklu_Table_ViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591A23B62A9E1B2B00A6F501 /* Coklu_Table_ViewUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		591A23A72A9E1B2A00A6F501 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 591A23882A9E1B2A00A6F501 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 591A238F2A9E1B2A00A6F501;
+			remoteInfo = "Coklu Table View";
+		};
+		591A23B12A9E1B2B00A6F501 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 591A23882A9E1B2A00A6F501 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 591A238F2A9E1B2A00A6F501;
+			remoteInfo = "Coklu Table View";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		591A23902A9E1B2A00A6F501 /* Coklu Table View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coklu Table View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		591A23932A9E1B2A00A6F501 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		591A23952A9E1B2A00A6F501 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		591A23972A9E1B2A00A6F501 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		591A239A2A9E1B2A00A6F501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		591A239C2A9E1B2A00A6F501 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		591A239F2A9E1B2A00A6F501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		591A23A12A9E1B2A00A6F501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		591A23A62A9E1B2A00A6F501 /* Coklu Table ViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coklu Table ViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		591A23AA2A9E1B2A00A6F501 /* Coklu_Table_ViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coklu_Table_ViewTests.swift; sourceTree = "<group>"; };
+		591A23B02A9E1B2B00A6F501 /* Coklu Table ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coklu Table ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		591A23B42A9E1B2B00A6F501 /* Coklu_Table_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coklu_Table_ViewUITests.swift; sourceTree = "<group>"; };
+		591A23B62A9E1B2B00A6F501 /* Coklu_Table_ViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coklu_Table_ViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		591A238D2A9E1B2A00A6F501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591A23A32A9E1B2A00A6F501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591A23AD2A9E1B2B00A6F501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		591A23872A9E1B2A00A6F501 = {
+			isa = PBXGroup;
+			children = (
+				591A23922A9E1B2A00A6F501 /* Coklu Table View */,
+				591A23A92A9E1B2A00A6F501 /* Coklu Table ViewTests */,
+				591A23B32A9E1B2B00A6F501 /* Coklu Table ViewUITests */,
+				591A23912A9E1B2A00A6F501 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		591A23912A9E1B2A00A6F501 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				591A23902A9E1B2A00A6F501 /* Coklu Table View.app */,
+				591A23A62A9E1B2A00A6F501 /* Coklu Table ViewTests.xctest */,
+				591A23B02A9E1B2B00A6F501 /* Coklu Table ViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		591A23922A9E1B2A00A6F501 /* Coklu Table View */ = {
+			isa = PBXGroup;
+			children = (
+				591A23932A9E1B2A00A6F501 /* AppDelegate.swift */,
+				591A23952A9E1B2A00A6F501 /* SceneDelegate.swift */,
+				591A23972A9E1B2A00A6F501 /* ViewController.swift */,
+				591A23992A9E1B2A00A6F501 /* Main.storyboard */,
+				591A239C2A9E1B2A00A6F501 /* Assets.xcassets */,
+				591A239E2A9E1B2A00A6F501 /* LaunchScreen.storyboard */,
+				591A23A12A9E1B2A00A6F501 /* Info.plist */,
+			);
+			path = "Coklu Table View";
+			sourceTree = "<group>";
+		};
+		591A23A92A9E1B2A00A6F501 /* Coklu Table ViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				591A23AA2A9E1B2A00A6F501 /* Coklu_Table_ViewTests.swift */,
+			);
+			path = "Coklu Table ViewTests";
+			sourceTree = "<group>";
+		};
+		591A23B32A9E1B2B00A6F501 /* Coklu Table ViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				591A23B42A9E1B2B00A6F501 /* Coklu_Table_ViewUITests.swift */,
+				591A23B62A9E1B2B00A6F501 /* Coklu_Table_ViewUITestsLaunchTests.swift */,
+			);
+			path = "Coklu Table ViewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		591A238F2A9E1B2A00A6F501 /* Coklu Table View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 591A23BA2A9E1B2B00A6F501 /* Build configuration list for PBXNativeTarget "Coklu Table View" */;
+			buildPhases = (
+				591A238C2A9E1B2A00A6F501 /* Sources */,
+				591A238D2A9E1B2A00A6F501 /* Frameworks */,
+				591A238E2A9E1B2A00A6F501 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coklu Table View";
+			productName = "Coklu Table View";
+			productReference = 591A23902A9E1B2A00A6F501 /* Coklu Table View.app */;
+			productType = "com.apple.product-type.application";
+		};
+		591A23A52A9E1B2A00A6F501 /* Coklu Table ViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 591A23BD2A9E1B2B00A6F501 /* Build configuration list for PBXNativeTarget "Coklu Table ViewTests" */;
+			buildPhases = (
+				591A23A22A9E1B2A00A6F501 /* Sources */,
+				591A23A32A9E1B2A00A6F501 /* Frameworks */,
+				591A23A42A9E1B2A00A6F501 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				591A23A82A9E1B2A00A6F501 /* PBXTargetDependency */,
+			);
+			name = "Coklu Table ViewTests";
+			productName = "Coklu Table ViewTests";
+			productReference = 591A23A62A9E1B2A00A6F501 /* Coklu Table ViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		591A23AF2A9E1B2B00A6F501 /* Coklu Table ViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 591A23C02A9E1B2B00A6F501 /* Build configuration list for PBXNativeTarget "Coklu Table ViewUITests" */;
+			buildPhases = (
+				591A23AC2A9E1B2B00A6F501 /* Sources */,
+				591A23AD2A9E1B2B00A6F501 /* Frameworks */,
+				591A23AE2A9E1B2B00A6F501 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				591A23B22A9E1B2B00A6F501 /* PBXTargetDependency */,
+			);
+			name = "Coklu Table ViewUITests";
+			productName = "Coklu Table ViewUITests";
+			productReference = 591A23B02A9E1B2B00A6F501 /* Coklu Table ViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		591A23882A9E1B2A00A6F501 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					591A238F2A9E1B2A00A6F501 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					591A23A52A9E1B2A00A6F501 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 591A238F2A9E1B2A00A6F501;
+					};
+					591A23AF2A9E1B2B00A6F501 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 591A238F2A9E1B2A00A6F501;
+					};
+				};
+			};
+			buildConfigurationList = 591A238B2A9E1B2A00A6F501 /* Build configuration list for PBXProject "Coklu Table View" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 591A23872A9E1B2A00A6F501;
+			productRefGroup = 591A23912A9E1B2A00A6F501 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				591A238F2A9E1B2A00A6F501 /* Coklu Table View */,
+				591A23A52A9E1B2A00A6F501 /* Coklu Table ViewTests */,
+				591A23AF2A9E1B2B00A6F501 /* Coklu Table ViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		591A238E2A9E1B2A00A6F501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				591A23A02A9E1B2A00A6F501 /* LaunchScreen.storyboard in Resources */,
+				591A239D2A9E1B2A00A6F501 /* Assets.xcassets in Resources */,
+				591A239B2A9E1B2A00A6F501 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591A23A42A9E1B2A00A6F501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591A23AE2A9E1B2B00A6F501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		591A238C2A9E1B2A00A6F501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				591A23982A9E1B2A00A6F501 /* ViewController.swift in Sources */,
+				591A23942A9E1B2A00A6F501 /* AppDelegate.swift in Sources */,
+				591A23962A9E1B2A00A6F501 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591A23A22A9E1B2A00A6F501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				591A23AB2A9E1B2A00A6F501 /* Coklu_Table_ViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591A23AC2A9E1B2B00A6F501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				591A23B52A9E1B2B00A6F501 /* Coklu_Table_ViewUITests.swift in Sources */,
+				591A23B72A9E1B2B00A6F501 /* Coklu_Table_ViewUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		591A23A82A9E1B2A00A6F501 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 591A238F2A9E1B2A00A6F501 /* Coklu Table View */;
+			targetProxy = 591A23A72A9E1B2A00A6F501 /* PBXContainerItemProxy */;
+		};
+		591A23B22A9E1B2B00A6F501 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 591A238F2A9E1B2A00A6F501 /* Coklu Table View */;
+			targetProxy = 591A23B12A9E1B2B00A6F501 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		591A23992A9E1B2A00A6F501 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				591A239A2A9E1B2A00A6F501 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		591A239E2A9E1B2A00A6F501 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				591A239F2A9E1B2A00A6F501 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		591A23B82A9E1B2B00A6F501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		591A23B92A9E1B2B00A6F501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		591A23BB2A9E1B2B00A6F501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Coklu Table View/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BRK.Coklu-Table-View";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		591A23BC2A9E1B2B00A6F501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Coklu Table View/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BRK.Coklu-Table-View";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		591A23BE2A9E1B2B00A6F501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BRK.Coklu-Table-ViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coklu Table View.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coklu Table View";
+			};
+			name = Debug;
+		};
+		591A23BF2A9E1B2B00A6F501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BRK.Coklu-Table-ViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coklu Table View.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coklu Table View";
+			};
+			name = Release;
+		};
+		591A23C12A9E1B2B00A6F501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BRK.Coklu-Table-ViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coklu Table View";
+			};
+			name = Debug;
+		};
+		591A23C22A9E1B2B00A6F501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BRK.Coklu-Table-ViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coklu Table View";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		591A238B2A9E1B2A00A6F501 /* Build configuration list for PBXProject "Coklu Table View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				591A23B82A9E1B2B00A6F501 /* Debug */,
+				591A23B92A9E1B2B00A6F501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		591A23BA2A9E1B2B00A6F501 /* Build configuration list for PBXNativeTarget "Coklu Table View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				591A23BB2A9E1B2B00A6F501 /* Debug */,
+				591A23BC2A9E1B2B00A6F501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		591A23BD2A9E1B2B00A6F501 /* Build configuration list for PBXNativeTarget "Coklu Table ViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				591A23BE2A9E1B2B00A6F501 /* Debug */,
+				591A23BF2A9E1B2B00A6F501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		591A23C02A9E1B2B00A6F501 /* Build configuration list for PBXNativeTarget "Coklu Table ViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				591A23C12A9E1B2B00A6F501 /* Debug */,
+				591A23C22A9E1B2B00A6F501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 591A23882A9E1B2A00A6F501 /* Project object */;
+}

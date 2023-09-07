@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		590BE21D2AAA234F00D5C607 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590BE21C2AAA234F00D5C607 /* AppDelegate.swift */; };
+		590BE21F2AAA234F00D5C607 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590BE21E2AAA234F00D5C607 /* SceneDelegate.swift */; };
+		590BE2212AAA234F00D5C607 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590BE2202AAA234F00D5C607 /* ViewController.swift */; };
+		590BE2242AAA234F00D5C607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 590BE2222AAA234F00D5C607 /* Main.storyboard */; };
+		590BE2272AAA234F00D5C607 /* Background_Modes_Ses.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 590BE2252AAA234F00D5C607 /* Background_Modes_Ses.xcdatamodeld */; };
+		590BE2292AAA234F00D5C607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 590BE2282AAA234F00D5C607 /* Assets.xcassets */; };
+		590BE22C2AAA234F00D5C607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 590BE22A2AAA234F00D5C607 /* LaunchScreen.storyboard */; };
+		590BE2372AAA234F00D5C607 /* Background_Modes_SesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590BE2362AAA234F00D5C607 /* Background_Modes_SesTests.swift */; };
+		590BE2412AAA234F00D5C607 /* Background_Modes_SesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590BE2402AAA234F00D5C607 /* Background_Modes_SesUITests.swift */; };
+		590BE2432AAA235000D5C607 /* Background_Modes_SesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590BE2422AAA235000D5C607 /* Background_Modes_SesUITestsLaunchTests.swift */; };
+		590BE2502AAA244200D5C607 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 590BE24F2AAA244200D5C607 /* music.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		590BE2332AAA234F00D5C607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 590BE2112AAA234F00D5C607 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 590BE2182AAA234F00D5C607;
+			remoteInfo = "Background Modes Ses";
+		};
+		590BE23D2AAA234F00D5C607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 590BE2112AAA234F00D5C607 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 590BE2182AAA234F00D5C607;
+			remoteInfo = "Background Modes Ses";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		590BE2192AAA234F00D5C607 /* Background Modes Ses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Background Modes Ses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		590BE21C2AAA234F00D5C607 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		590BE21E2AAA234F00D5C607 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		590BE2202AAA234F00D5C607 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		590BE2232AAA234F00D5C607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		590BE2262AAA234F00D5C607 /* Background_Modes_Ses.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Background_Modes_Ses.xcdatamodel; sourceTree = "<group>"; };
+		590BE2282AAA234F00D5C607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		590BE22B2AAA234F00D5C607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		590BE22D2AAA234F00D5C607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		590BE2322AAA234F00D5C607 /* Background Modes SesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Background Modes SesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		590BE2362AAA234F00D5C607 /* Background_Modes_SesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background_Modes_SesTests.swift; sourceTree = "<group>"; };
+		590BE23C2AAA234F00D5C607 /* Background Modes SesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Background Modes SesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		590BE2402AAA234F00D5C607 /* Background_Modes_SesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background_Modes_SesUITests.swift; sourceTree = "<group>"; };
+		590BE2422AAA235000D5C607 /* Background_Modes_SesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background_Modes_SesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		590BE24F2AAA244200D5C607 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		590BE2162AAA234F00D5C607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590BE22F2AAA234F00D5C607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590BE2392AAA234F00D5C607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		590BE2102AAA234F00D5C607 = {
+			isa = PBXGroup;
+			children = (
+				590BE21B2AAA234F00D5C607 /* Background Modes Ses */,
+				590BE2352AAA234F00D5C607 /* Background Modes SesTests */,
+				590BE23F2AAA234F00D5C607 /* Background Modes SesUITests */,
+				590BE21A2AAA234F00D5C607 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		590BE21A2AAA234F00D5C607 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				590BE2192AAA234F00D5C607 /* Background Modes Ses.app */,
+				590BE2322AAA234F00D5C607 /* Background Modes SesTests.xctest */,
+				590BE23C2AAA234F00D5C607 /* Background Modes SesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		590BE21B2AAA234F00D5C607 /* Background Modes Ses */ = {
+			isa = PBXGroup;
+			children = (
+				590BE21C2AAA234F00D5C607 /* AppDelegate.swift */,
+				590BE21E2AAA234F00D5C607 /* SceneDelegate.swift */,
+				590BE2202AAA234F00D5C607 /* ViewController.swift */,
+				590BE2222AAA234F00D5C607 /* Main.storyboard */,
+				590BE2282AAA234F00D5C607 /* Assets.xcassets */,
+				590BE22A2AAA234F00D5C607 /* LaunchScreen.storyboard */,
+				590BE22D2AAA234F00D5C607 /* Info.plist */,
+				590BE24F2AAA244200D5C607 /* music.mp3 */,
+				590BE2252AAA234F00D5C607 /* Background_Modes_Ses.xcdatamodeld */,
+			);
+			path = "Background Modes Ses";
+			sourceTree = "<group>";
+		};
+		590BE2352AAA234F00D5C607 /* Background Modes SesTests */ = {
+			isa = PBXGroup;
+			children = (
+				590BE2362AAA234F00D5C607 /* Background_Modes_SesTests.swift */,
+			);
+			path = "Background Modes SesTests";
+			sourceTree = "<group>";
+		};
+		590BE23F2AAA234F00D5C607 /* Background Modes SesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				590BE2402AAA234F00D5C607 /* Background_Modes_SesUITests.swift */,
+				590BE2422AAA235000D5C607 /* Background_Modes_SesUITestsLaunchTests.swift */,
+			);
+			path = "Background Modes SesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		590BE2182AAA234F00D5C607 /* Background Modes Ses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 590BE2462AAA235000D5C607 /* Build configuration list for PBXNativeTarget "Background Modes Ses" */;
+			buildPhases = (
+				590BE2152AAA234F00D5C607 /* Sources */,
+				590BE2162AAA234F00D5C607 /* Frameworks */,
+				590BE2172AAA234F00D5C607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Background Modes Ses";
+			productName = "Background Modes Ses";
+			productReference = 590BE2192AAA234F00D5C607 /* Background Modes Ses.app */;
+			productType = "com.apple.product-type.application";
+		};
+		590BE2312AAA234F00D5C607 /* Background Modes SesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 590BE2492AAA235000D5C607 /* Build configuration list for PBXNativeTarget "Background Modes SesTests" */;
+			buildPhases = (
+				590BE22E2AAA234F00D5C607 /* Sources */,
+				590BE22F2AAA234F00D5C607 /* Frameworks */,
+				590BE2302AAA234F00D5C607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				590BE2342AAA234F00D5C607 /* PBXTargetDependency */,
+			);
+			name = "Background Modes SesTests";
+			productName = "Background Modes SesTests";
+			productReference = 590BE2322AAA234F00D5C607 /* Background Modes SesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		590BE23B2AAA234F00D5C607 /* Background Modes SesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 590BE24C2AAA235000D5C607 /* Build configuration list for PBXNativeTarget "Background Modes SesUITests" */;
+			buildPhases = (
+				590BE2382AAA234F00D5C607 /* Sources */,
+				590BE2392AAA234F00D5C607 /* Frameworks */,
+				590BE23A2AAA234F00D5C607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				590BE23E2AAA234F00D5C607 /* PBXTargetDependency */,
+			);
+			name = "Background Modes SesUITests";
+			productName = "Background Modes SesUITests";
+			productReference = 590BE23C2AAA234F00D5C607 /* Background Modes SesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		590BE2112AAA234F00D5C607 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					590BE2182AAA234F00D5C607 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					590BE2312AAA234F00D5C607 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 590BE2182AAA234F00D5C607;
+					};
+					590BE23B2AAA234F00D5C607 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 590BE2182AAA234F00D5C607;
+					};
+				};
+			};
+			buildConfigurationList = 590BE2142AAA234F00D5C607 /* Build configuration list for PBXProject "Background Modes Ses" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 590BE2102AAA234F00D5C607;
+			productRefGroup = 590BE21A2AAA234F00D5C607 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				590BE2182AAA234F00D5C607 /* Background Modes Ses */,
+				590BE2312AAA234F00D5C607 /* Background Modes SesTests */,
+				590BE23B2AAA234F00D5C607 /* Background Modes SesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		590BE2172AAA234F00D5C607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590BE2502AAA244200D5C607 /* music.mp3 in Resources */,
+				590BE22C2AAA234F00D5C607 /* LaunchScreen.storyboard in Resources */,
+				590BE2292AAA234F00D5C607 /* Assets.xcassets in Resources */,
+				590BE2242AAA234F00D5C607 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590BE2302AAA234F00D5C607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590BE23A2AAA234F00D5C607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		590BE2152AAA234F00D5C607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590BE2212AAA234F00D5C607 /* ViewController.swift in Sources */,
+				590BE21D2AAA234F00D5C607 /* AppDelegate.swift in Sources */,
+				590BE2272AAA234F00D5C607 /* Background_Modes_Ses.xcdatamodeld in Sources */,
+				590BE21F2AAA234F00D5C607 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590BE22E2AAA234F00D5C607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590BE2372AAA234F00D5C607 /* Background_Modes_SesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590BE2382AAA234F00D5C607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590BE2412AAA234F00D5C607 /* Background_Modes_SesUITests.swift in Sources */,
+				590BE2432AAA235000D5C607 /* Background_Modes_SesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		590BE2342AAA234F00D5C607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 590BE2182AAA234F00D5C607 /* Background Modes Ses */;
+			targetProxy = 590BE2332AAA234F00D5C607 /* PBXContainerItemProxy */;
+		};
+		590BE23E2AAA234F00D5C607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 590BE2182AAA234F00D5C607 /* Background Modes Ses */;
+			targetProxy = 590BE23D2AAA234F00D5C607 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		590BE2222AAA234F00D5C607 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				590BE2232AAA234F00D5C607 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		590BE22A2AAA234F00D5C607 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				590BE22B2AAA234F00D5C607 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		590BE2442AAA235000D5C607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		590BE2452AAA235000D5C607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		590BE2472AAA235000D5C607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Background Modes Ses/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BRK.Background-Modes-Ses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		590BE2482AAA235000D5C607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Background Modes Ses/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BRK.Background-Modes-Ses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		590BE24A2AAA235000D5C607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BRK.Background-Modes-SesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Background Modes Ses.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Background Modes Ses";
+			};
+			name = Debug;
+		};
+		590BE24B2AAA235000D5C607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BRK.Background-Modes-SesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Background Modes Ses.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Background Modes Ses";
+			};
+			name = Release;
+		};
+		590BE24D2AAA235000D5C607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BRK.Background-Modes-SesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Background Modes Ses";
+			};
+			name = Debug;
+		};
+		590BE24E2AAA235000D5C607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BRK.Background-Modes-SesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Background Modes Ses";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		590BE2142AAA234F00D5C607 /* Build configuration list for PBXProject "Background Modes Ses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590BE2442AAA235000D5C607 /* Debug */,
+				590BE2452AAA235000D5C607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		590BE2462AAA235000D5C607 /* Build configuration list for PBXNativeTarget "Background Modes Ses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590BE2472AAA235000D5C607 /* Debug */,
+				590BE2482AAA235000D5C607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		590BE2492AAA235000D5C607 /* Build configuration list for PBXNativeTarget "Background Modes SesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590BE24A2AAA235000D5C607 /* Debug */,
+				590BE24B2AAA235000D5C607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		590BE24C2AAA235000D5C607 /* Build configuration list for PBXNativeTarget "Background Modes SesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590BE24D2AAA235000D5C607 /* Debug */,
+				590BE24E2AAA235000D5C607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		590BE2252AAA234F00D5C607 /* Background_Modes_Ses.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				590BE2262AAA234F00D5C607 /* Background_Modes_Ses.xcdatamodel */,
+			);
+			currentVersion = 590BE2262AAA234F00D5C607 /* Background_Modes_Ses.xcdatamodel */;
+			path = Background_Modes_Ses.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 590BE2112AAA234F00D5C607 /* Project object */;
+}
